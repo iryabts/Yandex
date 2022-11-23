@@ -40,3 +40,5 @@ elif repl_2 and not repl_1 and not repl_3:
     print(str_2, len_2)
 elif repl_3 and not repl_1 and not repl_2:
     print(str_3, len_3)
+elif repl_1 and repl_2 and repl_3 and len_1 == len_2 == len_3 == min(len_1, len_2, len_3):
+    print(str_3, len_3)
