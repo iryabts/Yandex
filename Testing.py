@@ -1,4 +1,4 @@
-a = input("Введите строку а: ")
-b = input("Введите строку b: ")
-print(min(a))
-print(min(a), min(a, b))
+a = int(input())
+b = int(input())
+for i in range(a, b - 1, -1):
+    print(i, end=" ")
