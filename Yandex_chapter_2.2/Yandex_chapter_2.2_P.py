@@ -8,14 +8,14 @@ first = "I"
 second = "II"
 third = "III"
 if Pete >= Vasya >= Tolya:
-    print(f"{Pete_1:^24}\n{Vasya_1}\n{Tolya_1:>24}\n {second}{first:^17}{third}")
+    print(f"{Pete_1:^24}\n{Vasya_1:>6}\n{Tolya_1:>22}\n{second:>5}{first:>7}{third:>9}")
 elif Pete >= Tolya >= Vasya:
-    print(f"{Pete_1:^24}\n{Tolya_1}\n{Vasya_1:>24}\n {second}{first:^17}{third}")
+    print(f"{Pete_1:^24}\n{Tolya_1:>6}\n{Vasya_1:>22}\n{second:>5}{first:>7}{third:>9}")
 elif Vasya >= Pete >= Tolya:
-    print(f"{Vasya_1:^24}\n{Pete_1}\n{Tolya_1:>24}\n {second}{first:^17}{third}")
+    print(f"{Vasya_1:^24}\n{Pete_1:>6}\n{Tolya_1:>22}\n{second:>5}{first:>7}{third:>9}")
 elif Vasya >= Tolya >= Pete:
-    print(f"{Vasya_1:^24}\n{Tolya_1}\n{Pete_1:>24}\n {second}{first:^17}{third}")
+    print(f"{Vasya_1:^24}\n{Tolya_1:>6}\n{Pete_1:>22}\n{second:>5}{first:>7}{third:>9}")
 elif Tolya >= Vasya >= Pete:
-    print(f"{Tolya_1:^24}\n{Vasya_1}\n{Pete_1:>24}\n {second}{first:^17}{third}")
+    print(f"{Tolya_1:^24}\n{Vasya_1:>6}\n{Pete_1:>22}\n{second:>5}{first:>7}{third:>9}")
 elif Tolya >= Pete >= Vasya:
-    print(f"{Tolya_1:^24}\n{Pete_1}\n{Vasya_1:>24}\n {second}{first:^17}{third}")
+    print(f"{Tolya_1:^24}\n{Pete_1:>6}\n{Vasya_1:>22}\n{second:>5}{first:>7}{third:>9}")
