@@ -1,10 +1,14 @@
 n = int(input())
 m = 0
-p = int(n ** 0.5)
-for i in range(2, p + 1):
-    if n % i == 0:
-        m += 1
-if m == 0 and n != 1:
-    print("YES")
-else:
-    print("NO")
+i = 2
+answer = ""
+while n // i > 0:
+    for j in range(i, int(i ** 0.5) + 1):
+        if i % j == 0:
+            m += 1
+    if m == 0 and n % i == 0:
+        answer += f"{i}"
+        n = n // i
+    else:
+        i += 1
+print(answer)
